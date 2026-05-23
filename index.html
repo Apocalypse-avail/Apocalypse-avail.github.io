@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="프론트엔드 개발자 신경민의 포트폴리오">
+  <title>신경민</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+
+  <div class="page">
+    <header class="sidebar">
+      <div class="sidebar-inner">
+        <div class="sidebar-intro">
+          <h1 class="sidebar-name">
+            <a href="#">신경민</a>
+          </h1>
+          <h2 class="sidebar-title">Frontend Engineer</h2>
+          <p class="sidebar-tagline">
+            접근성과 디테일을 고려한, 사용자 중심의 웹 경험을 만듭니다.
+          </p>
+
+          <nav class="sidebar-nav" aria-label="주요 섹션">
+            <ol>
+              <li>
+                <a href="#about" class="nav-link">
+                  <span class="nav-index">01.</span>
+                  <span class="nav-label">About</span>
+                </a>
+              </li>
+              <li>
+                <a href="#experience" class="nav-link">
+                  <span class="nav-index">02.</span>
+                  <span class="nav-label">Experience</span>
+                </a>
+              </li>
+              <li>
+                <a href="#projects" class="nav-link">
+                  <span class="nav-index">03.</span>
+                  <span class="nav-label">Projects</span>
+                </a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+
+        <ul class="social-list" aria-label="소셜 링크">
+          <li>
+            <a href="https://github.com" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:hello@example.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <main id="main-content">
+        <section class="section" id="about">
+          <h2 class="section-heading">
+            <span class="heading-index">01.</span>
+            About
+            <span class="heading-line" aria-hidden="true"></span>
+          </h2>
+          <div class="section-body">
+            <p>
+              안녕하세요, 프론트엔드 개발자 <span class="highlight">신경민</span>입니다.
+              <span class="highlight">사용자 경험</span>을 중심으로 웹 서비스를 만드는 일을 하고 있으며,
+              <span class="highlight">React</span>와 <span class="highlight">TypeScript</span>를 주로 사용합니다.
+              <span class="highlight">디자인 시스템</span>과 <span class="highlight">접근성</span>을 고려한 UI 구현에 관심이 많습니다.
+            </p>
+            <p>
+              경력 4년 차로, 스타트업에서 <span class="highlight">B2C 서비스</span>를 처음부터 런칭한 경험이 있습니다.
+              기획·디자인·백엔드 팀과 협업하며 기능을 빠르게 검증하고, 출시 이후에도
+              성능 개선과 사용자 피드백 반영을 꾸준히 해왔습니다.
+            </p>
+            <p>
+              저는 코드를 단순하고 읽기 쉽게 유지하는 것을 좋아합니다.
+              복잡한 문제일수록 작은 단위로 나누어 해결하고, 팀원과의 코드 리뷰를 통해
+              더 나은 구조를 함께 찾아가는 문화를 중요하게 생각합니다.
+            </p>
+            <p>
+              최근에는 <span class="highlight">AI 도구</span>를 활용해 반복 작업을 줄이고,
+              개발 시간을 사용자 가치를 만드는 일에 더 쓰고자 배우고 있습니다.
+              새로운 기술을 두려워하기보다 빠르게 학습해 실무에 적용하는 편이며,
+              함께 성장할 수 있는 팀에서 의미 있는 제품을 만드는 것을 목표로 하고 있습니다.
+            </p>
+
+            <ul class="about-highlights">
+              <li>4년 차 프론트엔드</li>
+              <li>B2C 서비스 런칭</li>
+              <li>크로스 팀 협업</li>
+              <li>Lighthouse 최적화</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section" id="experience">
+          <h2 class="section-heading">
+            <span class="heading-index">02.</span>
+            Experience
+            <span class="heading-line" aria-hidden="true"></span>
+          </h2>
+
+          <div class="experience-layout">
+            <div class="experience-tabs" role="tablist" aria-label="경력 목록">
+              <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="panel-0" id="tab-0" data-index="0">
+                <span class="tab-company">스타트업</span>
+              </button>
+              <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-1" id="tab-1" data-index="1">
+                <span class="tab-company">프로덕트 팀</span>
+              </button>
+              <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-2" id="tab-2" data-index="2">
+                <span class="tab-company">웹 에이전시</span>
+              </button>
+            </div>
+
+            <div class="experience-panels">
+              <article class="experience-panel active" role="tabpanel" id="panel-0" aria-labelledby="tab-0" data-index="0">
+                <header class="panel-header">
+                  <h3>
+                    <span>Frontend Engineer</span>
+                    <span class="company-link">· 스타트업</span>
+                  </h3>
+                  <p class="panel-date">2022 — Present</p>
+                </header>
+                <ul class="panel-list">
+                  <li>B2C 웹 서비스를 기획 단계부터 출시까지 전 과정에 참여했습니다.</li>
+                  <li>React·TypeScript 기반 UI를 구현하고 디자인 시스템을 정비했습니다.</li>
+                  <li>출시 후 Lighthouse 성능 개선과 사용자 피드백 반영을 담당했습니다.</li>
+                </ul>
+                <ul class="tech-list">
+                  <li>React</li>
+                  <li>Next.js</li>
+                  <li>TypeScript</li>
+                  <li>Tailwind CSS</li>
+                </ul>
+              </article>
+
+              <article class="experience-panel" role="tabpanel" id="panel-1" aria-labelledby="tab-1" data-index="1" hidden>
+                <header class="panel-header">
+                  <h3>
+                    <span>UI Developer</span>
+                    <span class="company-link">· 프로덕트 팀</span>
+                  </h3>
+                  <p class="panel-date">2021 — 2022</p>
+                </header>
+                <ul class="panel-list">
+                  <li>기획·디자인·백엔드와 협업하며 MVP를 빠르게 검증했습니다.</li>
+                  <li>접근성 가이드를 적용해 컴포넌트와 페이지 품질을 높였습니다.</li>
+                  <li>REST API 연동과 반응형 웹 구현을 담당했습니다.</li>
+                </ul>
+                <ul class="tech-list">
+                  <li>React</li>
+                  <li>JavaScript</li>
+                  <li>Figma</li>
+                  <li>Jest</li>
+                </ul>
+              </article>
+
+              <article class="experience-panel" role="tabpanel" id="panel-2" aria-labelledby="tab-2" data-index="2" hidden>
+                <header class="panel-header">
+                  <h3>
+                    <span>Junior Frontend Developer</span>
+                    <span class="company-link">· 웹 에이전시</span>
+                  </h3>
+                  <p class="panel-date">2020 — 2021</p>
+                </header>
+                <ul class="panel-list">
+                  <li>클라이언트 웹사이트 제작 및 유지보수를 수행했습니다.</li>
+                  <li>Git 기반 협업과 코드 리뷰 문화를 익혔습니다.</li>
+                  <li>크로스 브라우저·반응형 UI 구현 경험을 쌓았습니다.</li>
+                </ul>
+                <ul class="tech-list">
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>Git</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+
+          <div class="experience-mobile">
+            <ol class="jobs-list">
+              <li class="job-item">
+                <div class="job-meta">
+                  <span class="job-date">2022 — Present</span>
+                </div>
+                <div class="job-body">
+                  <h3>
+                    <span>Frontend Engineer</span>
+                    <span class="company-link">· 스타트업</span>
+                  </h3>
+                  <p>
+                    B2C 서비스 런칭, React·TypeScript UI 구현, 출시 후 성능 개선 및
+                    사용자 피드백 반영.
+                  </p>
+                  <ul class="tech-list">
+                    <li>React</li>
+                    <li>Next.js</li>
+                    <li>TypeScript</li>
+                    <li>Tailwind CSS</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="job-item">
+                <div class="job-meta">
+                  <span class="job-date">2021 — 2022</span>
+                </div>
+                <div class="job-body">
+                  <h3>
+                    <span>UI Developer</span>
+                    <span class="company-link">· 프로덕트 팀</span>
+                  </h3>
+                  <p>
+                    크로스 팀 협업, MVP 검증, 접근성·반응형 UI, REST API 연동.
+                  </p>
+                  <ul class="tech-list">
+                    <li>React</li>
+                    <li>Figma</li>
+                    <li>Jest</li>
+                  </ul>
+                </div>
+              </li>
+              <li class="job-item">
+                <div class="job-meta">
+                  <span class="job-date">2020 — 2021</span>
+                </div>
+                <div class="job-body">
+                  <h3>
+                    <span>Junior Frontend Developer</span>
+                    <span class="company-link">· 웹 에이전시</span>
+                  </h3>
+                  <p>
+                    클라이언트 웹 제작, Git 협업, 코드 리뷰, 반응형 UI 구현.
+                  </p>
+                  <ul class="tech-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                  </ul>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <h2 class="section-heading">
+            <span class="heading-index">03.</span>
+            Projects
+            <span class="heading-line" aria-hidden="true"></span>
+          </h2>
+
+          <ul class="projects-list">
+            <li class="project-card">
+              <div class="project-content">
+                <p class="project-overline">Featured Project</p>
+                <h3>
+                  <a href="#" tabindex="-1">
+                    <span>B2C 서비스 런칭</span>
+                  </a>
+                </h3>
+                <div class="project-desc">
+                  <p>
+                    스타트업 환경에서 기획부터 출시까지 참여한 B2C 웹 서비스입니다.
+                    기획·디자인·백엔드와 협업하며 기능을 빠르게 검증하고,
+                    출시 후 사용자 피드백을 반영해 개선했습니다.
+                  </p>
+                </div>
+                <ul class="tech-list">
+                  <li>React</li>
+                  <li>Next.js</li>
+                  <li>TypeScript</li>
+                  <li>REST API</li>
+                </ul>
+                <ul class="project-links">
+                  <li>
+                    <a href="#" aria-label="GitHub 저장소">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" aria-label="외부 링크">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="project-image">
+                <a href="#" tabindex="-1" aria-hidden="true">
+                  <div class="image-placeholder" data-label="B2C"></div>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-card project-card-reverse">
+              <div class="project-content">
+                <p class="project-overline">Featured Project</p>
+                <h3>
+                  <a href="#" tabindex="-1">
+                    <span>디자인 시스템 &amp; 접근성</span>
+                  </a>
+                </h3>
+                <div class="project-desc">
+                  <p>
+                    재사용 가능한 UI 컴포넌트와 패턴을 정리한 내부 디자인 시스템입니다.
+                    접근성 가이드를 컴포넌트 단계에 반영해 일관된 사용자 경험을 제공합니다.
+                  </p>
+                </div>
+                <ul class="tech-list">
+                  <li>React</li>
+                  <li>TypeScript</li>
+                  <li>Tailwind CSS</li>
+                  <li>Figma</li>
+                </ul>
+                <ul class="project-links">
+                  <li>
+                    <a href="#" aria-label="GitHub 저장소">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="project-image">
+                <a href="#" tabindex="-1" aria-hidden="true">
+                  <div class="image-placeholder" data-label="DS"></div>
+                </a>
+              </div>
+            </li>
+
+            <li class="project-card">
+              <div class="project-content">
+                <p class="project-overline">Featured Project</p>
+                <h3>
+                  <a href="#" tabindex="-1">
+                    <span>성능 최적화 대시보드</span>
+                  </a>
+                </h3>
+                <div class="project-desc">
+                  <p>
+                    Lighthouse 지표를 모니터링하고 개선 포인트를 추적하는 내부 도구입니다.
+                    Playwright E2E 테스트와 Jest 단위 테스트로 품질을 유지합니다.
+                  </p>
+                </div>
+                <ul class="tech-list">
+                  <li>Playwright</li>
+                  <li>Jest</li>
+                  <li>Lighthouse</li>
+                  <li>Git</li>
+                </ul>
+                <ul class="project-links">
+                  <li>
+                    <a href="#" aria-label="GitHub 저장소">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" aria-label="외부 링크">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="project-image">
+                <a href="#" tabindex="-1" aria-hidden="true">
+                  <div class="image-placeholder" data-label="Perf"></div>
+                </a>
+              </div>
+            </li>
+          </ul>
+
+          <p class="archive-link">
+            <a href="#about" class="inline-link">
+              <span>더 많은 프로젝트 보기</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </p>
+        </section>
+
+        <footer class="site-footer">
+          <p>
+            HTML, CSS, JavaScript로 제작한 포트폴리오입니다.
+            <span class="highlight">신경민</span>의 자기소개를 바탕으로 구성했습니다.
+          </p>
+          <p class="footer-credit">
+            <a href="https://brittanychiang.com/" target="_blank" rel="noreferrer noopener">
+              brittanychiang.com
+            </a>
+            스타일을 참고했습니다.
+          </p>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+  <nav class="mobile-nav" aria-label="모바일 섹션 네비게이션">
+    <a href="#about" class="mobile-nav-link">
+      <span class="nav-index">01.</span> About
+    </a>
+    <a href="#experience" class="mobile-nav-link">
+      <span class="nav-index">02.</span> Exp
+    </a>
+    <a href="#projects" class="mobile-nav-link">
+      <span class="nav-index">03.</span> Work
+    </a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
